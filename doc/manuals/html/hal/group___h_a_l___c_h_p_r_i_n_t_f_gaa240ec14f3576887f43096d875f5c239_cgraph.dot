@@ -1,0 +1,12 @@
+digraph "chvsnprintf"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node7 [label="chvsnprintf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node8 [label="chvprintf",height=0.2,width=0.4,color="black",URL="$group___h_a_l___c_h_p_r_i_n_t_f.html#ga91985b136a3f66e9110034cecae60242",tooltip="System formatted output function. "];
+  Node7 -> Node9 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node9 [label="msObjectInit",height=0.2,width=0.4,color="black",URL="$group___h_a_l___m_e_m_o_r_y___s_t_r_e_a_m_s.html#gac6c4df5591b95b17517fa9a53c3cf120",tooltip="Memory stream object initialization. "];
+}

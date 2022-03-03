@@ -1,0 +1,13 @@
+digraph "PWMChannelConfig"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{PWMChannelConfig\n|+ mode\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +callback" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{PWMDriver\n|+ state\l+ period\l+ enabled\l+ channels\l|}",height=0.2,width=0.4,color="black",URL="$struct_p_w_m_driver.html",tooltip="Structure representing a PWM driver. "];
+  Node3 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +config" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{PWMConfig\n|+ frequency\l+ period\l|}",height=0.2,width=0.4,color="black",URL="$struct_p_w_m_config.html",tooltip="Type of a PWM driver configuration structure. "];
+  Node2 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +callback" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node1 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +channels" ,arrowhead="odiamond",fontname="Helvetica"];
+}

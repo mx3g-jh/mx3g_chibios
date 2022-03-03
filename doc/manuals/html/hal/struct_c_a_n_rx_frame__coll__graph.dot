@@ -1,0 +1,7 @@
+digraph "CANRxFrame"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{CANRxFrame\n|+ FMI\l+ TIME\l+ DLC\l+ RTR\l+ IDE\l+ SID\l+ EID\l+ _align1\l+ @8\l+ data8\l+ data16\l+ data32\l+ @10\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

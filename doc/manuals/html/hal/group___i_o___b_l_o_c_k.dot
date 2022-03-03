@@ -1,0 +1,10 @@
+digraph "Abstract I/O Block Device"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir=LR;
+  Node0 [label="Abstract I/O Block\l Device",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="Blocks",height=0.2,width=0.4,color="black",URL="$group___h_a_l___b_l_o_c_k_s.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}

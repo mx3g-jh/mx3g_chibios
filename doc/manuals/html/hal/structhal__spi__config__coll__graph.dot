@@ -1,0 +1,10 @@
+digraph "hal_spi_config"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{hal_spi_config\n|+ circular\l+ ssline\l+ ssport\l+ ssmask\l+ sspad\l+ spi_lld_config_fields\l+ slave\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +error_cb\n+data_cb\n+end_cb" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{hal_spi_driver\n|+ state\l+ thread\l+ mutex\l+ spi_lld_driver_fields\l+ sync_transfer\l|}",height=0.2,width=0.4,color="black",URL="$structhal__spi__driver.html",tooltip="Structure representing an SPI driver. "];
+  Node1 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +config" ,arrowhead="odiamond",fontname="Helvetica"];
+}

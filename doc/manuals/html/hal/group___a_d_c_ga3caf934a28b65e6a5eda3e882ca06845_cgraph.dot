@@ -1,0 +1,14 @@
+digraph "adcStop"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node9 [label="adcStop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node10 [label="adc_lld_stop",height=0.2,width=0.4,color="black",URL="$group___a_d_c.html#ga5f4152006602b187c745bb32f915d679",tooltip="Deactivates the ADC peripheral. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node11 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node12 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+}

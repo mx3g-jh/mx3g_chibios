@@ -1,0 +1,24 @@
+digraph "HAL"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir=LR;
+  Node1 [label="Peripheral Interfaces",height=0.2,width=0.4,color="black",URL="$group___h_a_l___a_b_s_t_r_a_c_t___p_e_r_i_p_h_e_r_a_l_s.html",tooltip="HAL Abstract Peripheral Interfaces. "];
+  Node0 [label="HAL",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Configuration",height=0.2,width=0.4,color="black",URL="$group___h_a_l___c_o_n_f.html",tooltip="HAL Configuration. "];
+  Node5 [label="Interfaces and Classes",height=0.2,width=0.4,color="black",URL="$group___h_a_l___i_n_t_e_r_f_a_c_e_s___c_l_a_s_s_e_s.html",tooltip="HAL Interfaces and Classes. "];
+  Node3 [label="Normal Drivers",height=0.2,width=0.4,color="black",URL="$group___h_a_l___n_o_r_m_a_l___d_r_i_v_e_r_s.html",tooltip="HAL Normal Drivers. "];
+  Node8 [label="OSAL",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html",tooltip="Operating System Abstraction Layer. "];
+  Node6 [label="Inner Code",height=0.2,width=0.4,color="black",URL="$group___h_a_l___i_n_n_e_r___c_o_d_e.html",tooltip="HAL Inner Code. "];
+  Node4 [label="Complex Drivers",height=0.2,width=0.4,color="black",URL="$group___h_a_l___c_o_m_p_l_e_x___d_r_i_v_e_r_s.html",tooltip="HAL Complex Drivers. "];
+  Node7 [label="Support Code",height=0.2,width=0.4,color="black",URL="$group___h_a_l___s_u_p_p_o_r_t.html",tooltip="HAL Support Code. "];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node8 [shape=plaintext, dir="back", style="solid"];
+}

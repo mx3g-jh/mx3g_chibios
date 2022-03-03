@@ -1,0 +1,10 @@
+digraph "halClockGetPointX"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node49 [label="halClockGetPointX",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node50 [label="hal_lld_get_clock_point",height=0.2,width=0.4,color="black",URL="$group___h_a_l.html#ga6515333b84e78d02e2ae1705359d0601",tooltip="Returns the frequency of a clock point in Hz. "];
+}

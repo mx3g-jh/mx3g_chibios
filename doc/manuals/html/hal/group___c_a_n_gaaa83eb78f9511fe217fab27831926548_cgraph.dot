@@ -1,0 +1,10 @@
+digraph "canTryAbortX"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node21 [label="canTryAbortX",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node22 [label="can_lld_abort",height=0.2,width=0.4,color="black",URL="$group___c_a_n.html#ga7a5cbd44b7ea9a43fdb05c8ddc8f4f4b",tooltip="Tries to abort an ongoing transmission. "];
+}

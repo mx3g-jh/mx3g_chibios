@@ -1,0 +1,14 @@
+digraph "macStop"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node11 [label="macStop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node12 [label="mac_lld_stop",height=0.2,width=0.4,color="black",URL="$group___m_a_c.html#ga911fa66cf2aa37f1c981fbf74d140565",tooltip="Deactivates the MAC peripheral. "];
+  Node11 -> Node13 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node13 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node11 -> Node14 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node14 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+}

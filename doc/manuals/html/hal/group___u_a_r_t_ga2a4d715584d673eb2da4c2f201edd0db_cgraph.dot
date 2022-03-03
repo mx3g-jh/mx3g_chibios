@@ -1,0 +1,10 @@
+digraph "uartObjectInit"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node4 [label="uartObjectInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node5 [label="osalMutexObjectInit",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga156fb36e0f0ea799f2bfe31970337de7",tooltip="Initializes s mutex_t object. "];
+}

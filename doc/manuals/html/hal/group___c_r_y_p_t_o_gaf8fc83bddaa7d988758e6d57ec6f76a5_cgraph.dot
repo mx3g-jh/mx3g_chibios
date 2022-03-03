@@ -1,0 +1,10 @@
+digraph "cryHMACSHA256Init"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node70 [label="cryHMACSHA256Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node70 -> Node71 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node71 [label="cry_lld_HMACSHA256_init",height=0.2,width=0.4,color="black",URL="$group___c_r_y_p_t_o.html#ga12aa711017f32cf6344db06f4461c9bc",tooltip="Hash initialization using HMAC_SHA256. "];
+}

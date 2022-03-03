@@ -1,0 +1,10 @@
+digraph "cryLoadHMACTransientKey"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node68 [label="cryLoadHMACTransientKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node68 -> Node69 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node69 [label="cry_lld_hmac_loadkey",height=0.2,width=0.4,color="black",URL="$group___c_r_y_p_t_o.html#gab3527f2107eced7f6fb20668d0598ff1",tooltip="Initializes the HMAC transient key. "];
+}

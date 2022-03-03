@@ -1,0 +1,10 @@
+digraph "mmcErase"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node28 [label="mmcErase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node29 [label="send_command_R1",height=0.2,width=0.4,color="black",URL="$group___m_m_c___s_p_i.html#gaf83dd60ca0bc01e456d965724b3f4a5a",tooltip="Sends a command an returns a single byte response. "];
+}

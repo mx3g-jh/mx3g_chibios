@@ -1,0 +1,14 @@
+digraph "uartSendFullTimeout"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node39 [label="uartSendFullTimeout",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node40 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node39 -> Node41 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node41 [label="osalThreadSuspendTimeoutS",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#gadd8bf7ac6d338b33b927db22aa27a43a",tooltip="Sends the current thread sleeping and sets a reference variable. "];
+  Node39 -> Node42 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node42 [label="uart_lld_start_send",height=0.2,width=0.4,color="black",URL="$group___u_a_r_t.html#ga1e25c8da94128f260d3d8683db114326",tooltip="Starts a transmission on the UART peripheral. "];
+}

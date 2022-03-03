@@ -1,0 +1,9 @@
+digraph "BaseObject"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node18 [label="{BaseObject\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node18 [color="grey25",fontsize="8",style="solid",label=" +vmt" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node19 [label="{BaseObjectVMT\n||}",height=0.2,width=0.4,color="black",URL="$struct_base_object_v_m_t.html",tooltip="BaseObject virtual methods table. "];
+}

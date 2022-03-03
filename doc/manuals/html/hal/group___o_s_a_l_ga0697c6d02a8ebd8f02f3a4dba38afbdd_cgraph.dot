@@ -1,0 +1,10 @@
+digraph "osalSysHalt"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="osalSysHalt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node2 [label="osalSysDisable",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga5de74d07e68ff94091ee0af8b5874cda",tooltip="Disables interrupts globally. "];
+}

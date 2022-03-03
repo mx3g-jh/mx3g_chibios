@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node0 [label="BaseFlashVMT",height=0.2,width=0.4,color="black",URL="$struct_base_flash_v_m_t.html",tooltip="BaseFlash virtual methods table. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node1 [label="EFlashDriverVMT",height=0.2,width=0.4,color="black",URL="$struct_e_flash_driver_v_m_t.html",tooltip="EFlash virtual methods table. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node2 [label="SNORDriverVMT",height=0.2,width=0.4,color="black",URL="$struct_s_n_o_r_driver_v_m_t.html",tooltip="SNOR virtual methods table. "];
+}

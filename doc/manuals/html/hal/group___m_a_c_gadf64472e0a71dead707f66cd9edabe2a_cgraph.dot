@@ -1,0 +1,10 @@
+digraph "macPollLinkStatus"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node25 [label="macPollLinkStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node26 [label="mac_lld_poll_link_status",height=0.2,width=0.4,color="black",URL="$group___m_a_c.html#gadace88fa6d5051c6c56e068b029dfee8",tooltip="Updates and returns the link status. "];
+}

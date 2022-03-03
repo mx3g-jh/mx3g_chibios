@@ -1,0 +1,14 @@
+digraph "stSetAlarm"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node10 [label="stSetAlarm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node11 [label="st_lld_set_alarm",height=0.2,width=0.4,color="black",URL="$group___s_t.html#gaa00d0d75daf48ccb85f271695a0789c9",tooltip="Sets the alarm time. "];
+  Node10 -> Node12 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node12 [label="stIsAlarmActive",height=0.2,width=0.4,color="black",URL="$group___s_t.html#ga667a5c35d5653b5101fa5f13ccb6a285",tooltip="Determines if the alarm zero is active. "];
+  Node12 -> Node13 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node13 [label="st_lld_is_alarm_active",height=0.2,width=0.4,color="black",URL="$group___s_t.html#ga3092fee3beb683e12a1d807eb2535b9d",tooltip="Determines if the alarm is active. "];
+}

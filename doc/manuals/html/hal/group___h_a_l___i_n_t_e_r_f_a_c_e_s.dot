@@ -1,0 +1,28 @@
+digraph "Streams"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir=LR;
+  Node8 [label="Buffered Streams Class",height=0.2,width=0.4,color="black",URL="$group___h_a_l___b_u_f_f_e_r_e_d___s_t_r_e_a_m_s.html"];
+  Node0 [label="Streams",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 [label="Abstract Files Interface",height=0.2,width=0.4,color="black",URL="$group___h_a_l___f_i_l_e_s.html"];
+  Node3 [label="Abstract I/O Channel\l Interface",height=0.2,width=0.4,color="black",URL="$group___i_o___c_h_a_n_n_e_l.html"];
+  Node9 [label="Output Formatter Utility",height=0.2,width=0.4,color="black",URL="$group___h_a_l___c_h_p_r_i_n_t_f.html"];
+  Node6 [label="Memory Streams Class",height=0.2,width=0.4,color="black",URL="$group___h_a_l___m_e_m_o_r_y___s_t_r_e_a_m_s.html"];
+  Node7 [label="Null Streams Class",height=0.2,width=0.4,color="black",URL="$group___h_a_l___n_u_l_l___s_t_r_e_a_m_s.html"];
+  Node5 [label="Abstract Persistent\l Storage Interface",height=0.2,width=0.4,color="black",URL="$group___h_a_l___p_e_r_s_i_s_t_e_n_t.html"];
+  Node10 [label="Input Formatter Utility",height=0.2,width=0.4,color="black",URL="$group___h_a_l___c_h_s_c_a_n_f.html"];
+  Node1 [label="Interfaces and Classes",height=0.2,width=0.4,color="black",URL="$group___h_a_l___i_n_t_e_r_f_a_c_e_s___c_l_a_s_s_e_s.html",tooltip="HAL Interfaces and Classes. "];
+  Node2 [label="Abstract Streams Interface",height=0.2,width=0.4,color="black",URL="$group___h_a_l___s_t_r_e_a_m_s.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node8 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node9 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node10 [shape=plaintext, dir="back", style="solid"];
+}

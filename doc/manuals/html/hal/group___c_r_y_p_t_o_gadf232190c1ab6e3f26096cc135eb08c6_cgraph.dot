@@ -1,0 +1,10 @@
+digraph "crySHA512Init"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node62 [label="crySHA512Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node63 [label="cry_lld_SHA512_init",height=0.2,width=0.4,color="black",URL="$group___c_r_y_p_t_o.html#ga64bd1db581fb8ed65c76beb0e8c5ff87",tooltip="Hash initialization using SHA512. "];
+}

@@ -1,0 +1,10 @@
+digraph "trngGenerate"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node11 [label="trngGenerate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node12 [label="trng_lld_generate",height=0.2,width=0.4,color="black",URL="$group___t_r_n_g.html#ga0e83cc2c0d7a4eb3770a9de5d382fff4",tooltip="True random numbers generator. "];
+}

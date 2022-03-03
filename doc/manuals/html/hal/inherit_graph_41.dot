@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node0 [label="hal_uart_driver",height=0.2,width=0.4,color="black",URL="$structhal__uart__driver.html",tooltip="Structure representing an UART driver. "];
+}

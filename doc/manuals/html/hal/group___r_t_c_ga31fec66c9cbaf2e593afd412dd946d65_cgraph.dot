@@ -1,0 +1,10 @@
+digraph "rtcSetTime"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node4 [label="rtcSetTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node5 [label="rtc_lld_set_time",height=0.2,width=0.4,color="black",URL="$group___r_t_c.html#ga2aa2d6a95ef295eafacedaeaec71ba4a",tooltip="Set current time. "];
+}

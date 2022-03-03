@@ -1,0 +1,12 @@
+digraph "canInit"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node0 [label="canInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node1 [label="can_lld_init",height=0.2,width=0.4,color="black",URL="$group___c_a_n.html#gaa215539c505ce7099f30c0aace00bf25",tooltip="Low level CAN driver initialization. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node2 [label="canObjectInit",height=0.2,width=0.4,color="red",URL="$group___c_a_n.html#gadf8c892ca4bd2544d03be8a690885aef",tooltip="Initializes the standard part of a CANDriver structure. "];
+}

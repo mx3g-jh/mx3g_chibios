@@ -1,0 +1,12 @@
+digraph "obqPutTimeout"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node40 [label="obqPutTimeout",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node41 [label="obqGetEmptyBufferTimeoutS",height=0.2,width=0.4,color="black",URL="$group___h_a_l___b_u_f_f_e_r_s.html#ga5fd1a9f207211fdbd50a42d711826aa2",tooltip="Gets the next empty buffer from the queue. "];
+  Node40 -> Node42 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node42 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+}

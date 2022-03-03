@@ -1,0 +1,10 @@
+digraph "halClockSwitchMode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node47 [label="halClockSwitchMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node47 -> Node48 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node48 [label="hal_lld_clock_switch_mode",height=0.2,width=0.4,color="black",URL="$group___h_a_l.html#gacd0dbce42095963e5dc9214f54d25381",tooltip="Switches to a different clock configuration. "];
+}

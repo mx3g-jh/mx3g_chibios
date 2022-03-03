@@ -1,0 +1,10 @@
+digraph "obqResetI"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node25 [label="obqResetI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node26 [label="osalThreadDequeueAllI",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga27a8123a61493028127897d839a4d75a",tooltip="Dequeues and wakes up all threads from the queue. "];
+}

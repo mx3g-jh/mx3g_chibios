@@ -1,0 +1,10 @@
+digraph "oqObjectInit"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node18 [label="oqObjectInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node19 [label="osalThreadQueueObjectInit",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga345fc7214d1863e6471ae8433b995a10",tooltip="Initializes a threads queue object. "];
+}

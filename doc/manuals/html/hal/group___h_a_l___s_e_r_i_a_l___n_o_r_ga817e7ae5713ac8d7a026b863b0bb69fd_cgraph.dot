@@ -1,0 +1,18 @@
+digraph "snorMemoryUnmap"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node19 [label="snorMemoryUnmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node20 [label="bus_acquire",height=0.2,width=0.4,color="black",URL="$group___h_a_l___s_e_r_i_a_l___n_o_r.html#ga85d23017f8456c9a79f1b32bac863f3b",tooltip="Bus acquisition and lock. "];
+  Node19 -> Node21 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node21 [label="bus_release",height=0.2,width=0.4,color="black",URL="$group___h_a_l___s_e_r_i_a_l___n_o_r.html#ga2ddbbb72354fe7735e30e349eee0017a",tooltip="Bus release. "];
+  Node19 -> Node22 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node22 [label="wspiUnmapFlash",height=0.2,width=0.4,color="black",URL="$group___w_s_p_i.html#gabd92ddbd07c1e9be7307215363d6fa3b",tooltip="Unmaps from memory space a WSPI flash device. "];
+  Node22 -> Node23 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node23 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node22 -> Node24 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node24 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+}

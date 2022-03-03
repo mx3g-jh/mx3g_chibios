@@ -1,0 +1,12 @@
+digraph "cryStart"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node3 [label="cryStart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node4 [label="cry_lld_start",height=0.2,width=0.4,color="black",URL="$group___c_r_y_p_t_o.html#ga1b015037e20a635ddb62d3da339d5058",tooltip="Configures and activates the crypto peripheral. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node5 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+}

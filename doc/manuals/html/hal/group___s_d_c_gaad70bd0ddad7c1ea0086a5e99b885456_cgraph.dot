@@ -1,0 +1,10 @@
+digraph "_sdc_wait_for_transfer_state"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node15 [label="_sdc_wait_for_transfer\l_state",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node16 [label="sdc_lld_send_cmd_short_crc",height=0.2,width=0.4,color="black",URL="$group___s_d_c.html#ga93392c5297148eea683ec6d9bc79be3e",tooltip="Sends an SDIO command with a short response expected and CRC. "];
+}

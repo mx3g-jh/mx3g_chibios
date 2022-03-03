@@ -1,0 +1,9 @@
+digraph "BufferedStreamAdapter"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{BufferedStreamAdapter\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +vmt" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{BufferedStreamAdapterVMT\n||}",height=0.2,width=0.4,color="black",URL="$struct_buffered_stream_adapter_v_m_t.html",tooltip="BufferedStreamAdapter virtual methods table. "];
+}

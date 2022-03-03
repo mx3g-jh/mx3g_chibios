@@ -1,0 +1,10 @@
+digraph "rtcGetTime"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node6 [label="rtcGetTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node7 [label="rtc_lld_get_time",height=0.2,width=0.4,color="black",URL="$group___r_t_c.html#ga48ba5473cc2ecd526fceb6282f65a860",tooltip="Get current time. "];
+}

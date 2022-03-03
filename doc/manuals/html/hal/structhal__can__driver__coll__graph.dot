@@ -1,0 +1,14 @@
+digraph "hal_can_driver"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{hal_can_driver\n|+ state\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +error_event\n+sleep_event\n+wakeup_event\n+txempty_event\n+rxfull_event" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{event_source\n|+ flags\l+ param\l|}",height=0.2,width=0.4,color="black",URL="$structevent__source.html",tooltip="Events source object. "];
+  Node2 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +cb" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +rxqueue\n+txqueue" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{threads_queue_t\n|+ tr\l|}",height=0.2,width=0.4,color="black",URL="$structthreads__queue__t.html",tooltip="Type of a thread queue. "];
+  Node4 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +config" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{hal_can_config\n|+ dummy\l|}",height=0.2,width=0.4,color="black",URL="$structhal__can__config.html",tooltip="Type of a CAN configuration structure. "];
+}

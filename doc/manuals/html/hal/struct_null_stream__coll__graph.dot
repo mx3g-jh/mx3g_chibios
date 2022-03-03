@@ -1,0 +1,15 @@
+digraph "NullStream"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node4 [label="{NullStream\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{BaseBufferedStream\n||}",height=0.2,width=0.4,color="black",URL="$struct_base_buffered_stream.html",tooltip="Buffered stream class. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{BaseSequentialStream\n||}",height=0.2,width=0.4,color="red",URL="$struct_base_sequential_stream.html",tooltip="Base stream class. "];
+  Node10 -> Node5 [color="grey25",fontsize="8",style="solid",label=" +vmt" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{BaseBufferedStreamVMT\n||}",height=0.2,width=0.4,color="red",URL="$struct_base_buffered_stream_v_m_t.html",tooltip="BaseBufferedStream virtual methods table. "];
+  Node11 -> Node4 [color="grey25",fontsize="8",style="solid",label=" +vmt" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{NullStreamVMT\n||}",height=0.2,width=0.4,color="black",URL="$struct_null_stream_v_m_t.html",tooltip="NullStream virtual methods table. "];
+}

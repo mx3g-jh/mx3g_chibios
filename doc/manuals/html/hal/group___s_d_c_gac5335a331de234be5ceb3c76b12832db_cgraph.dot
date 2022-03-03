@@ -1,0 +1,10 @@
+digraph "sdcSync"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node39 [label="sdcSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node40 [label="sdc_lld_sync",height=0.2,width=0.4,color="black",URL="$group___s_d_c.html#ga1cd25837010ad89c87ed4444c683205e",tooltip="Waits for card idle condition. "];
+}

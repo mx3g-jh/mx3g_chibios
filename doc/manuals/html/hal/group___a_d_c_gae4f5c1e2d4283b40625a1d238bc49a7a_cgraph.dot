@@ -1,0 +1,18 @@
+digraph "adcConvert"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node26 [label="adcConvert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node27 [label="adcStartConversionI",height=0.2,width=0.4,color="black",URL="$group___a_d_c.html#ga2a8d9a86e452fd4480f22ad6b8c209de",tooltip="Starts an ADC conversion. "];
+  Node27 -> Node28 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node28 [label="adc_lld_start_conversion",height=0.2,width=0.4,color="black",URL="$group___a_d_c.html#ga5a23ece28ce81cc00e2ddb614d656339",tooltip="Starts an ADC conversion. "];
+  Node26 -> Node29 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node29 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node26 -> Node30 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node30 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+  Node26 -> Node31 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node31 [label="osalThreadSuspendS",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga49573c45ca88cd172ee03da252f69ae4",tooltip="Sends the current thread sleeping and sets a reference variable. "];
+}

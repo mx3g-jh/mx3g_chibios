@@ -1,0 +1,9 @@
+digraph "palevent_t"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{palevent_t\n|+ cb\l+ arg\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +threads" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{threads_queue_t\n|+ tr\l|}",height=0.2,width=0.4,color="black",URL="$structthreads__queue__t.html",tooltip="Type of a thread queue. "];
+}

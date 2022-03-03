@@ -1,0 +1,14 @@
+digraph "wdgStop"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node5 [label="wdgStop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node6 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node5 -> Node7 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node7 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+  Node5 -> Node8 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node8 [label="wdg_lld_stop",height=0.2,width=0.4,color="black",URL="$group___w_d_g.html#gae676ae4b2ec24bb8579bc0c875df2400",tooltip="Deactivates the WDG peripheral. "];
+}

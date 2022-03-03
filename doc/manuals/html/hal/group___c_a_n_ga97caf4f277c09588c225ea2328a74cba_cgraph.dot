@@ -1,0 +1,18 @@
+digraph "canSleep"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node31 [label="canSleep",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node32 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node32 [label="can_lld_sleep",height=0.2,width=0.4,color="black",URL="$group___c_a_n.html#ga90f2254324f338714bfe1663eb73a2ba",tooltip="Enters the sleep mode. "];
+  Node31 -> Node33 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node33 [label="osalEventBroadcastFlagsI",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#gaf8ec0981fbd7d926f77095f3dbbb13d7",tooltip="Add flags to an event source object. "];
+  Node31 -> Node34 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node34 [label="osalOsRescheduleS",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga5850406055069d6a9b88103ad34b111d",tooltip="Checks if a reschedule is required and performs it. "];
+  Node31 -> Node35 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node35 [label="osalSysLock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga0cb5e528b0114b4ca61c2eb65a0515fa",tooltip="Enters a critical zone from thread context. "];
+  Node31 -> Node36 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node36 [label="osalSysUnlock",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga17dbf4a1761019b8d94f43832c506543",tooltip="Leaves a critical zone from thread context. "];
+}

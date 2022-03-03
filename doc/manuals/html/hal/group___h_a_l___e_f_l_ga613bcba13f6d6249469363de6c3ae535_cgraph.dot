@@ -1,0 +1,12 @@
+digraph "eflInit"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node0 [label="eflInit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node1 [label="efl_lld_init",height=0.2,width=0.4,color="black",URL="$group___h_a_l___e_f_l.html#ga1a464cd1eaf14c27d36a503bfb1d7a21",tooltip="Low level Embedded Flash driver initialization. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node2 [label="eflObjectInit",height=0.2,width=0.4,color="black",URL="$group___h_a_l___e_f_l.html#ga99e1024d8274212936fbd214c9dbbee9",tooltip="Initializes a generic EFlashDriver object. "];
+}

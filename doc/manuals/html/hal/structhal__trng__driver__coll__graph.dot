@@ -1,0 +1,9 @@
+digraph "hal_trng_driver"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  Node1 [label="{hal_trng_driver\n|+ state\l+ trng_lld_driver_fields\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +config" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{hal_trng_config\n|+ trng_lld_config_fields\l|}",height=0.2,width=0.4,color="black",URL="$structhal__trng__config.html",tooltip="Driver configuration structure. "];
+}

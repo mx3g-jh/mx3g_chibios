@@ -1,0 +1,12 @@
+digraph "i2c_lld_init"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="8",labelfontname="Helvetica",labelfontsize="8"];
+  node [fontname="Helvetica",fontsize="8",shape=record];
+  rankdir="LR";
+  Node20 [label="i2c_lld_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node21 [label="i2cObjectInit",height=0.2,width=0.4,color="black",URL="$group___i2_c.html#ga2dd7be686d8e136b1deebfeb20e868f9",tooltip="Initializes the standard part of a I2CDriver structure. "];
+  Node21 -> Node22 [color="midnightblue",fontsize="8",style="solid",fontname="Helvetica"];
+  Node22 [label="osalMutexObjectInit",height=0.2,width=0.4,color="black",URL="$group___o_s_a_l.html#ga156fb36e0f0ea799f2bfe31970337de7",tooltip="Initializes s mutex_t object. "];
+}
